@@ -1,0 +1,12 @@
+from sklearn.datasets import load_iris
+import pandas as pd
+
+# Load the dataset
+iris = load_iris()
+
+# Convert to a Pandas DataFrame for easier manipulation
+iris_data = pd.DataFrame(data=iris['data'], columns=iris['feature_names'])
+iris_data['species'] = iris['target']
+
+# Display the first few rows
+print(iris_data.head())
