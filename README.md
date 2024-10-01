@@ -29,14 +29,21 @@ The Iris flower dataset consists of 150 samples of three species of Iris flowers
 
 
 Sepal length (cm)
+
 Sepal width (cm)
+
 Petal length (cm)
+
 Petal width (cm)
+
 The target variable (species) is a categorical variable representing the flower species:
 
 0: Iris-Setosa
+
 1: Iris-Versicolor
+
 2: Iris-Virginica
+
 The dataset is clean, meaning there are no missing values or inconsistencies, making it ideal for exploring different machine learning algorithms.
 
 🔧 Technologies Used:
